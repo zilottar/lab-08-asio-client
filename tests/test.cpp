@@ -1,7 +1,9 @@
-// Copyright 2018 Your Name <your_email>
+// Copyright 2020 <LinkIvan333>
 
+#include <client.h>
 #include <gtest/gtest.h>
 
-TEST(Example, EmptyTest) {
-    EXPECT_TRUE(true);
+TEST(talk_to_srv, Test1) {
+  EXPECT_TRUE(true);
 }
+
