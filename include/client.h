@@ -1,4 +1,4 @@
-// Copyright 2020 <LinkIvan333>
+// Copyright 2020 <>
 
 #ifndef INCLUDE_CLIENT_HPP_
 #define INCLUDE_CLIENT_HPP_
