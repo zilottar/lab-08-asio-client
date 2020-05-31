@@ -32,11 +32,9 @@ hunter_add_package(Boost COMPONENTS log thread filesystem system date_time)
 find_package(Boost CONFIG REQUIRED log thread filesystem system date_time)
 
 add_library(client STATIC
-  ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
 )
 add_executable(main
-  ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
 )
  add_executable(tests
